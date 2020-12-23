@@ -1,7 +1,14 @@
 <?php namespace App\Controllers;
 
-class Webservice extends BaseController
+use CodeIgniter\RESTful\ResourceController;
+
+class Webservice extends ResourceController
 {
+	protected $format = 'json';
+	protected $modelName = 'App\Models\Ws_Model';
+
+
+
 	public function get()
 	{
 	}
