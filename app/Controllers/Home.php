@@ -108,27 +108,6 @@ class Home extends BaseController
 		}
 	}
 
-	// public function sipadu()
-	// {
-	// 	$data['judulHalaman'] = 'Login with SIPADU';
-	// 	$data['template'] = 'login';
-	// 	return view('login/loginSipadu', $data);
-	// }
-
-	public function register()
-	{
-		$data['judulHalaman'] = 'Register';
-		$data['template'] = 'register';
-		return view('register/register', $data);
-	}
-
-	public function registerSuccess()
-	{
-		$data['judulHalaman'] = 'Register Success';
-		$data['template'] = 'register';
-		return view('register/register_success', $data);
-	}
-
 	public function reset()
 	{
 		$data['judulHalaman'] = 'Reset Password';

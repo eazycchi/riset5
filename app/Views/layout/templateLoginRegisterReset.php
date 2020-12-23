@@ -45,7 +45,6 @@ if ($template == "login") {
                 </div>
                 <div class="block md:flex my-auto md:my-auto hidden" id="submenu">
                     <div class="text-xs md:text-base font-semibold text-center mx-4 mt-1 md:mt-0 py-1 px-2 hover:bg-gray-100"> <a href="/"> Login </a></div>
-                    <div class="text-xs md:text-base font-semibold text-center mx-4 mt-1 md:mt-0 py-1 px-2 hover:bg-gray-100"> <a href="/register"> Register </a></div>
                 </div>
             </div>
         </div>
